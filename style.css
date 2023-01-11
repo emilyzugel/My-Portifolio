@@ -339,7 +339,8 @@ footer {
 .footer-container {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 .sm-footer-title {
