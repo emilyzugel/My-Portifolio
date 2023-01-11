@@ -200,7 +200,12 @@ header {
     border-radius: 16.9848px;
     display: grid;
     place-content: center;
-    margin-bottom: 15px;
+}
+
+.project-preview:hover {
+    font-size: 15px;
+    transition: border 0.2s ease;
+    filter: grayscale(100%);
 }
 
 .project-preview > figcaption {
@@ -218,6 +223,7 @@ header {
 .project-subtitle {
     text-transform: uppercase;
     margin-bottom: 15px;
+    margin-top: 14px;
     font-size: 14px;
     color: #6048df;
 }
@@ -328,6 +334,37 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.sm-footer-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sm-icon-a > img {
+    margin-right: 10px;
+}
+
+.sm-icon-a > img:hover,
+#footer-nav > ul > li:hover {
+    transform: scale(1.1);
+}
+
+#footer-nav > ul > li {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
 }
 
 #copyrights {
