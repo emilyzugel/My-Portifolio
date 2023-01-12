@@ -20,10 +20,12 @@
                             <a href="#works" class="nav-link">My Works</a>
                         </li>
                         <li>
-                            <a href="#about" class="nav-link">About me</a>
+                            <a href="./about.html" class="nav-link">About me</a>
                         </li>
                         <li>
-                            <a href="#contact" class="nav-link">Contact</a>
+                            <a href="./contact.html" class="nav-link"
+                                >Contact</a
+                            >
                         </li>
                     </ul>
                 </nav>
@@ -211,12 +213,21 @@
                                 rows="10"
                             ></textarea>
                         </fieldset>
-                        <input type="submit" value="Send" />
+                        <button
+                            class="form-btn"
+                            type="button"
+                            value="Send"
+                            onclick="errorMsg()"
+                        >
+                            Send
+                        </button>
+                        <p id="error"></p>
                     </form>
                 </div>
             </div>
         </section>
 
+        <!-- FOOTER -->
         <footer>
             <div class="container footer-container">
                 <div class="footer-left-block">
